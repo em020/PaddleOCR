@@ -15,4 +15,9 @@
 from setuptools import setup
 
 
-setup(version="2.8.1")
+setup(name='paddleocr',
+    packages=['paddleocr'],
+    package_dir={'paddleocr': ''},
+    include_package_data=True,
+    entry_points={"console_scripts": ["paddleocr= paddleocr.paddleocr:main"]},
+      version='2.8.1')
