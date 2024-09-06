@@ -20,5 +20,3 @@ exclude .pre-commit-config.yaml
 exclude .style.yapf
 exclude mkdocs.yml
 exclude train.sh
-include *.py
-recursive-include paddleocr *.py
