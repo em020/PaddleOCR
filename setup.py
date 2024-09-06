@@ -15,4 +15,4 @@
 from setuptools import setup
 
 
-setup()
+setup(version="2.8.1")
